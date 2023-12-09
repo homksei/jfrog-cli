@@ -116,9 +116,16 @@ github.com/gookit/color v1.5.4/go.mod h1:pZJOeOS8DM43rXbp4AZo1n9zCU2qjpcRko0b6/Q
 github.com/hashicorp/hcl v1.0.0 h1:0Anlzjpi4vEasTeNFn2mLJgTSwt0+6sfsiTG8qcWGx4=
 github.com/hashicorp/hcl v1.0.0/go.mod h1:E5yfLk+7swimpb2L/Alb/PJmXilQ/rhwaUYs4T20WEQ=
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 github.com/homksei/jfrog-client-go v0.0.0-20231130220739-24251aa9441d h1:qCOJR/HT6erSiKwpRN2D2gWzoJwrEDstSIZiBC8c+Lc=
 github.com/homksei/jfrog-client-go v0.0.0-20231130220739-24251aa9441d/go.mod h1:0PVhP6xGvBBaUzOU9LKf5OYkke/gY2IFILHA++iabFM=
+=======
+github.com/homksei/jfrog-cli-core/v2 v2.0.0-20231210154803-bf3aac7d0351 h1:0Wi0GmxGcnIyizTYqYQQBK91EuJRBL8gOOJORA0h6/s=
+github.com/homksei/jfrog-cli-core/v2 v2.0.0-20231210154803-bf3aac7d0351/go.mod h1:RFQwrZ1qXAQ+X0xfuzxBBDIYuRnDsPy12xlyjuOpUog=
+github.com/homksei/jfrog-client-go v0.0.0-20231207141703-5d97612a167a h1:TRKfDv4TDxQkKsVQ3ffDaVjMVeLTL/lQpZWrikZI1AQ=
+github.com/homksei/jfrog-client-go v0.0.0-20231207141703-5d97612a167a/go.mod h1:cG0vdKXbyfupKgSYmwA5FZPco6zSfyJi3eEYOxuqm/k=
+>>>>>>> 17f70416... Replace jfrog-cli-core with updated fork
 github.com/ianlancetaylor/demangle v0.0.0-20181102032728-5e5cf60278f6/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 github.com/ianlancetaylor/demangle v0.0.0-20200824232613-28f6c0f3b639/go.mod h1:aSSvb/t6k1mPoxDqO4vJh6VOCGPwU4O0C2/Eqndh1Sc=
 >>>>>>> dc690b84... Replace jfrog-client-go with updated fork
@@ -134,6 +141,7 @@ github.com/jfrog/gofrog v1.6.0 h1:jOwb37nHY2PnxePNFJ6e6279Pgkr3di05SbQQw47Mq8=
 github.com/jfrog/gofrog v1.6.0/go.mod h1:SZ1EPJUruxrVGndOzHd+LTiwWYKMlHqhKD+eu+v5Hqg=
 github.com/jfrog/jfrog-apps-config v1.0.1 h1:mtv6k7g8A8BVhlHGlSveapqf4mJfonwvXYLipdsOFMY=
 github.com/jfrog/jfrog-apps-config v1.0.1/go.mod h1:8AIIr1oY9JuH5dylz2S6f8Ym2MaadPLR6noCBO4C22w=
+<<<<<<< HEAD
 github.com/jfrog/jfrog-cli-core/v2 v2.48.1 h1:rRqI82btSFKFStGd7uEiheeBAuEjrw+ZZbE1abaKUBU=
 github.com/jfrog/jfrog-cli-core/v2 v2.48.1/go.mod h1:9aZHtR9x7s9VUa5AalOjJkxMMPSgxXgQ5hdU3vzMwcs=
 github.com/jfrog/jfrog-cli-security v1.0.3 h1:TUfPmMEavLZzxvHJSzuXg1m9OQolGL/atE8cRbuPvls=
@@ -142,6 +150,12 @@ github.com/jfrog/jfrog-client-go v1.37.1 h1:BqIWGPajC5vhUo5dcQ9KEJr0EVANr/O4cfEq
 github.com/jfrog/jfrog-client-go v1.37.1/go.mod h1:y+zeO0LeT2uHoHs4/fXHrm5dfF02bg6Dw3cNJxgJ5LY=
 github.com/jszwec/csvutil v1.10.0 h1:upMDUxhQKqZ5ZDCs/wy+8Kib8rZR8I8lOR34yJkdqhI=
 github.com/jszwec/csvutil v1.10.0/go.mod h1:/E4ONrmGkwmWsk9ae9jpXnv9QT8pLHEPcCirMFhxG9I=
+=======
+github.com/jstemmer/go-junit-report v0.0.0-20190106144839-af01ea7f8024/go.mod h1:6v2b51hI/fHJwM22ozAgKL4VKDeJcHhJFhtBdhmNjmU=
+github.com/jstemmer/go-junit-report v0.9.1/go.mod h1:Brl9GWCQeLvo8nXZwPNNblvFj/XSXhF0NWZEnDohbsk=
+github.com/jszwec/csvutil v1.8.0 h1:G7vS2LGdpZZDH1HmHeNbxOaJ/ZnJlpwGFvOkTkJzzNk=
+github.com/jszwec/csvutil v1.8.0/go.mod h1:/E4ONrmGkwmWsk9ae9jpXnv9QT8pLHEPcCirMFhxG9I=
+>>>>>>> 17f70416... Replace jfrog-cli-core with updated fork
 github.com/kevinburke/ssh_config v1.2.0 h1:x584FjTGwHzMwvHx18PXxbBVzfnxogHaAReU4gf13a4=
 github.com/kevinburke/ssh_config v1.2.0/go.mod h1:CT57kijsi8u/K/BOFA39wgDQJ9CxiF4nAY/ojJ6r6mM=
 github.com/kisielk/errcheck v1.5.0/go.mod h1:pFxgyoBC7bSaBwPgfKdkLd5X25qrDl4LWUI2bnpBCr8=
