@@ -1,6 +1,8 @@
 module github.com/jfrog/jfrog-cli
 
-go 1.20
+go 1.21
+
+toolchain go1.21.4
 
 require (
 	github.com/agnivade/levenshtein v1.1.1
@@ -54,6 +56,7 @@ require (
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
 	github.com/go-git/go-billy/v5 v5.5.0 // indirect
+	github.com/gofrs/flock v0.8.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt/v4 v4.5.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
@@ -130,9 +133,13 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/jfrog/jfrog-client-go => github.com/homksei/jfrog-client-go v0.0.0-20231207141703-5d97612a167a
+replace github.com/jfrog/jfrog-client-go => github.com/homksei/jfrog-client-go v0.0.0-20240229105110-6d0eb835b44f
 
-replace github.com/jfrog/jfrog-cli-core/v2 => github.com/homksei/jfrog-cli-core/v2 v2.0.0-20231210154803-bf3aac7d0351
+replace github.com/jfrog/jfrog-cli-core/v2 => github.com/homksei/jfrog-cli-core/v2 v2.0.0-20240229095325-de1c12d933d9
+
+// replace github.com/jfrog/jfrog-client-go => /export/users/alekseik/jfrog-cli-develop/jfrog-client-go
+
+// replace github.com/jfrog/jfrog-cli-core/v2 => /export/users/alekseik/jfrog-cli-develop/jfrog-cli-core
 
 // replace github.com/jfrog/build-info-go => github.com/jfrog/build-info-go v1.8.9-0.20231107094842-97a0ca9da395
 
